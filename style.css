@@ -19,6 +19,7 @@ body {
   font-family: "DM Sans", sans-serif;
   line-height: 1.5;
   background-color: #f1f3fb;
+  background-color: #999999;
   padding: 0 2rem;
 }
 
@@ -93,20 +94,20 @@ input {
 }
 
 .iType,.oType{
-    background-color: gold;
+    background-color:rgb(92 133 56);
     width: 100%;
     font-size: 20px;
     text-align: center;
     border: none;
     border-radius: 6px;
-    padding: 6px 1px;
+    padding: 10px 1px;
 
 }
 .card-form select,.card-form input{
     outline: none;
 }
 .iType:hover,.oType:hover{
-    background-color: darksalmon;
+    background-color: rgb(233, 122, 215);
 }
 
 .iNum,.oNum{
@@ -139,7 +140,7 @@ input {
 }
 
 .card-info {
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   text-align: center;
   font-size: .875rem;
   color: #8597a3;
